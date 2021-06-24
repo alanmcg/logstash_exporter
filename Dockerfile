@@ -1,6 +1,7 @@
 # See: https://hub.docker.com/_/golang/
 FROM golang:1.13 as golang
 
+RUN go clean -modcache
 # Fetch the source
 RUN go get -u github.com/ccjenniferhsu/logstash_exporter
 
