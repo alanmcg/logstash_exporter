@@ -119,7 +119,7 @@ func main() {
 
 	prometheus.MustRegister(logstashCollector)
 
-	log.Println("Starting Logstash exporter\n", version.Info())
-	log.Println("Build context\n", version.BuildContext())
+	log.Printf("Starting Logstash exporter\n", version.Info())
+	log.Printf("Build context\n", version.BuildContext())
 	listen(*exporterBindAddress)
 }
