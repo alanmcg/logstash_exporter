@@ -1,4 +1,4 @@
-module github.com/sequra/logstash_exporter
+module github.com/ccjenniferhsu/logstash_exporter
 
 require (
 	github.com/prometheus/client_golang v0.9.2
