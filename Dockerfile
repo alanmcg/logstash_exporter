@@ -1,5 +1,5 @@
 # See: https://hub.docker.com/_/golang/
-FROM golang:1.13 as golang
+FROM golang:1.23 as golang
 
 RUN go clean -modcache
 # Fetch the source
