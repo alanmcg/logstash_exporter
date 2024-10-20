@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   logstash:
-    image: docker.elastic.co/logstash/logstash:7.5.2
+    image: docker.elastic.co/logstash/logstash:8.15.3
     container_name: logstash
     user: root
     networks:
